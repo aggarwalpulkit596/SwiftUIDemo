@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E557801122F16A5800762259 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E557801022F16A5800762259 /* CircleImage.swift */; };
 		E5BD0EA822F161270094ECD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD0EA722F161270094ECD6 /* AppDelegate.swift */; };
 		E5BD0EAA22F161270094ECD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD0EA922F161270094ECD6 /* SceneDelegate.swift */; };
 		E5BD0EAC22F161270094ECD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD0EAB22F161270094ECD6 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E557801022F16A5800762259 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		E5BD0EA422F161270094ECD6 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD0EA722F161270094ECD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BD0EA922F161270094ECD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		E5BD0EA622F161270094ECD6 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				E557801022F16A5800762259 /* CircleImage.swift */,
 				E5BD0EA722F161270094ECD6 /* AppDelegate.swift */,
 				E5BD0EA922F161270094ECD6 /* SceneDelegate.swift */,
 				E5BD0EAB22F161270094ECD6 /* ContentView.swift */,
@@ -149,6 +152,7 @@
 				E5BD0EA822F161270094ECD6 /* AppDelegate.swift in Sources */,
 				E5BD0EAA22F161270094ECD6 /* SceneDelegate.swift in Sources */,
 				E5BD0EAC22F161270094ECD6 /* ContentView.swift in Sources */,
+				E557801122F16A5800762259 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

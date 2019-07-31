@@ -10,18 +10,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading){
-        Text("Hello World")
-            .font(.title)
-            .accentColor(.red)
-            HStack{
-                Text("This is the first subtitle")
-                //Create a Space Between Views also makes the view use full width or height of device
-                Spacer()
-                Text("This is the second subtitle")
+        VStack {
+            MapView()
+                .edgesIgnoringSafeArea(.top)
+                .frame(height: 300)
 
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+
+            VStack(alignment: .leading) {
+                Text("Turtle Rock")
+                    .font(.title)
+                HStack(alignment: .top) {
+                    Text("Joshua Tree National Park")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("California")
+                        .font(.subheadline)
+                }
             }
-        }.padding()
+            .padding()
+
+            Spacer()
+        }
     }
 }
 

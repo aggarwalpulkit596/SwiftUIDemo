@@ -25,6 +25,7 @@
 		E51F2CF922F2954E00AEFB56 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51F2CF622F2954E00AEFB56 /* MapView.swift */; };
 		E51F2CFA22F2954E00AEFB56 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51F2CF722F2954E00AEFB56 /* CircleImage.swift */; };
 		E51F2CFB22F2954E00AEFB56 /* LandmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51F2CF822F2954E00AEFB56 /* LandmarkView.swift */; };
+		E51F2CFD22F2A9BF00AEFB56 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51F2CFC22F2A9BF00AEFB56 /* UserData.swift */; };
 		E5942F6522F1C3990023226A /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5942F6422F1C3990023226A /* LandmarkList.swift */; };
 		E5BD0EA822F161270094ECD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD0EA722F161270094ECD6 /* AppDelegate.swift */; };
 		E5BD0EAA22F161270094ECD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD0EA922F161270094ECD6 /* SceneDelegate.swift */; };
@@ -53,6 +54,7 @@
 		E51F2CF622F2954E00AEFB56 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		E51F2CF722F2954E00AEFB56 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		E51F2CF822F2954E00AEFB56 /* LandmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkView.swift; sourceTree = "<group>"; };
+		E51F2CFC22F2A9BF00AEFB56 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = "../../../../../../System/Volumes/Data/Users/pulkit-mac/SwiftProjects/SampleApp/SampleApp/Models/UserData.swift"; sourceTree = "<group>"; };
 		E5942F6422F1C3990023226A /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkList.swift; path = "../../../../../System/Volumes/Data/Users/pulkit-mac/SwiftProjects/SampleApp/SampleApp/LandmarkList.swift"; sourceTree = "<group>"; };
 		E5BD0EA422F161270094ECD6 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD0EA722F161270094ECD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				E51F2CD622F2951A00AEFB56 /* Data.swift */,
 				E51F2CD722F2951A00AEFB56 /* Landmark.swift */,
+				E51F2CFC22F2A9BF00AEFB56 /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				E5942F6522F1C3990023226A /* LandmarkList.swift in Sources */,
 				E5BD0EAA22F161270094ECD6 /* SceneDelegate.swift in Sources */,
 				E5BD0EAC22F161270094ECD6 /* ContentView.swift in Sources */,
+				E51F2CFD22F2A9BF00AEFB56 /* UserData.swift in Sources */,
 				E51F2CE722F2951A00AEFB56 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
